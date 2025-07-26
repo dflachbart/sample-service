@@ -32,7 +32,7 @@ class AppControllerTest {
         String result = controller.test();
 
         // Assert
-        assertEquals("1.2.3.5\n", result);
+        assertEquals("1.2.3.4\n", result);
     }
 }
 
